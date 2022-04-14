@@ -27,10 +27,11 @@ export default {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
   .logo {
-    height: 200rpx;
     width: 200rpx;
-    margin: 200rpx auto 50rpx auto;
+    height: 200rpx;
+    margin: 200rpx auto 50rpx;
   }
 }
 
@@ -41,6 +42,7 @@ export default {
 .text-area {
   display: flex;
   justify-content: center;
+  color: #333;
 }
 
 .title {

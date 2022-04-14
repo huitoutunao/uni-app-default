@@ -1,0 +1,4 @@
+# .stylelintignore
+./dist
+./test
+./src/lib

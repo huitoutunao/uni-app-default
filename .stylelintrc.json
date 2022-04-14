@@ -1,0 +1,27 @@
+{
+  "extends": [
+    "stylelint-config-standard-scss",
+    "stylelint-config-recommended-vue",
+    "stylelint-config-recess-order",
+    "stylelint-prettier/recommended"
+  ],
+  "rules": {
+    "prettier/prettier": true,
+    "unit-no-unknown": [
+      true,
+      {
+        "ignoreUnits": ["rpx"]
+      }
+    ],
+    "max-nesting-depth": 20,
+    "selector-max-id": 2,
+    "color-hex-case": "lower",
+    "color-hex-length": "short"
+  },
+  "overrides": [
+    {
+      "files": ["**/*.(scss,css,vue)"],
+      "customSyntax": "postcss-scss"
+    }
+  ]
+}
