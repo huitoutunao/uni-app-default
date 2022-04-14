@@ -55,23 +55,23 @@
 	},
 	"mp-weixin": { /* 微信小程序特有相关 */
 		"appid": "",
-		"setting" : {
-            "urlCheck" : false,
-            "minified" : true,
-            "postcss" : true
-        },
+		"setting": {
+      "urlCheck" : false,
+      "minified" : true,
+      "postcss" : true
+    },
 		"usingComponents": true
 	},
 	"mp-alipay" : {
-        "usingComponents" : true
-    },
-    "mp-baidu" : {
-        "usingComponents" : true
-    },
-    "mp-toutiao" : {
-        "usingComponents" : true
-    },
-    "mp-qq" : {
-        "usingComponents" : true
-    }
+    "usingComponents" : true
+  },
+  "mp-baidu" : {
+    "usingComponents" : true
+  },
+  "mp-toutiao" : {
+    "usingComponents" : true
+  },
+  "mp-qq" : {
+    "usingComponents" : true
+  }
 }
