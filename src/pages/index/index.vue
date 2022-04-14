@@ -6,6 +6,7 @@
         {{ title }}
       </text>
     </view>
+    <view class="p">你好，世界</view>
   </view>
 </template>
 
@@ -13,7 +14,7 @@
 export default {
   data() {
     return {
-      title: 'Hello',
+      title: 'Hello World',
     }
   },
   onLoad() {},
@@ -36,7 +37,7 @@ export default {
 }
 
 .p {
-  color: red;
+  color: #666;
 }
 
 .text-area {
